@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<title>Math 3607 Homework Formatting Guide</title>
+<style type="text/css">
+.underline { text-decoration: underline; }
+</style>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js/dist/reveal.css"/>
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js/dist/theme/beige.css" id="theme"/>
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js/lib/css/zenburn.css"/>
+<!-- If the query includes 'print-pdf', include the PDF print sheet -->
+<script>
+    if( window.location.search.match( /print-pdf/gi ) ) {
+        var link = document.createElement( 'link' );
+        link.rel = 'stylesheet';
+        link.type = 'text/css';
+        link.href = 'https://cdn.jsdelivr.net/npm/reveal.js/css/print/pdf.css';
+        document.getElementsByTagName( 'head' )[0].appendChild( link );
+    }
+</script>
+</head>
+<body>
+<div class="reveal">
+<div class="slides">
+<section id="sec-title-slide"><h1 class="title">Math 3607 Homework Formatting Guide</h1><p class="date">Created: 2021-08-26 Thu 14:56</p>
+</section>
+<section id="table-of-contents"><div id="table-of-contents">
+<h2>Table of Contents</h2>
+<div id="text-table-of-contents">
+<ul>
+<li><a href="#/slide-org5a94058">Requirements</a></li>
+<li><a href="#/slide-orgbd8d5e1">Formatting HW</a>
+<ul>
+<li><a href="#/slide-orga052e38">Notes</a></li>
+<li><a href="#/slide-orgde47580">Demo - Sample Homework 1</a></li>
+</ul>
+</li>
+<li><a href="#/slide-org0b9ba73">Exporting HW</a></li>
+<li><a href="#/slide-org06baca0">Submit to Gradescope</a></li>
+</ul>
+</div>
+</div>
+</section>
+
+
+<section>
+<section id="slide-org5a94058">
+<h2 id="org5a94058">Requirements</h2>
+<ul>
+<li class="off"><code>[&#xa0;]</code> Watch Lectures 1 and 2</li>
+<li class="off"><code>[&#xa0;]</code> Watch the video on built-in math. functions</li>
+<li class="off"><code>[&#xa0;]</code> Download homework pdf</li>
+<li class="off"><code>[&#xa0;]</code> Download homework template mlx file</li>
+<li class="off"><code>[&#xa0;]</code> Create a directory for homework</li>
+
+</ul>
+
+</section>
+</section>
+<section>
+<section id="slide-orgbd8d5e1">
+<h2 id="orgbd8d5e1">Formatting HW</h2>
+<div class="outline-text-2" id="text-orgbd8d5e1">
+</div>
+</section>
+</section>
+<section>
+<section id="slide-orga052e38">
+<h3 id="orga052e38">Notes</h3>
+<p>
+There are some notations which will be used throughout the course.
+</p>
+<ul>
+<li>icons for by-hand and computer problems</li>
+<li>reference keys to textbooks</li>
+
+</ul>
+
+<p>
+In addition, there is an <b>important note</b> on the use of <i>Symbolic Toolbox</i> features on MATLAB. In short, DON'T USE THEM!
+</p>
+
+</section>
+</section>
+<section>
+<section id="slide-orgde47580">
+<h3 id="orgde47580">Demo - Sample Homework 1</h3>
+<ul>
+<li>By-hand work</li>
+<li>Computer work</li>
+<li>Write a script &#x2026; / Then run the script &#x2026;</li>
+
+</ul>
+
+</section>
+</section>
+<section>
+<section id="slide-org0b9ba73">
+<h2 id="org0b9ba73">Exporting HW</h2>
+<p>
+Export the Live Script to a single pdf document by clicking
+</p>
+
+<p>
+<code>Save&gt;Export to PDF</code>
+</p>
+
+<p>
+found under <code>LIVE EDITOR</code> tab.
+</p>
+
+</section>
+</section>
+<section>
+<section id="slide-org06baca0">
+<h2 id="org06baca0">Submit to Gradescope</h2>
+<ul>
+<li>First time login: use <code>name.#@osu.edu</code>.</li>
+<li>Follow the guides to upload your work.</li>
+
+</ul>
+</section>
+</section>
+</div>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/reveal.js/dist/reveal.js"></script>
+
+<script>
+// Full list of configuration options available here:
+// https://github.com/hakimel/reveal.js#configuration
+Reveal.initialize({
+width:1280, height:720, margin: 0.1, minScale:0.2, maxScale:2.5,
+transition:'none',
+center:false,
+reveal_history:true,
+slideNumber:'c/t',
+multiplex: {
+    secret: '', // null if client
+    id: '', // id, obtained from socket.io server
+    url: '' // Location of socket.io server
+},
+
+// Optional libraries used to extend on reveal.js
+dependencies: [
+ { src: 'https://cdn.jsdelivr.net/npm/reveal.js/plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+ { src: 'https://cdn.jsdelivr.net/npm/reveal.js/plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+ { src: 'https://cdn.jsdelivr.net/npm/reveal.js/plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } },
+ { src: 'https://cdn.jsdelivr.net/npm/reveal.js/plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+ { src: 'https://cdn.jsdelivr.net/npm/reveal.js/plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }]
+});
+</script>
+</body>
+</html>

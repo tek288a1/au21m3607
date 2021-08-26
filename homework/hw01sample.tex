@@ -1,0 +1,110 @@
+% Created 2021-08-26 Thu 14:26
+% Intended LaTeX compiler: pdflatex
+\documentclass[11pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{graphicx}
+\usepackage{grffile}
+\usepackage{longtable}
+\usepackage{wrapfig}
+\usepackage{rotating}
+\usepackage[normalem]{ulem}
+\usepackage{amsmath}
+\usepackage{textcomp}
+\usepackage{amssymb}
+\usepackage{capt-of}
+\usepackage{hyperref}
+\usepackage{color}
+\usepackage{listings}
+\usepackage[margin=1in]{geometry}
+\usepackage{setspace}
+\usepackage[dvipsnames]{xcolor}
+\usepackage{fontawesome5}
+\usepackage{cancel}
+\usepackage{nicefrac}
+\input{tk_packages}
+\input{tk_macros}
+\input{tk_environ}
+\setlength\parindent{0pt}
+\setlength{\parskip}{1ex plus 0.5ex minus 0.2ex}
+\newcommand{\hwhdr}[2]{
+\textit{\footnotesize Updated on \today}
+
+\hrulefill
+% Course information
+\begin{center}
+\begin{tabular}{ c }
+\LARGE \bf Math 3607: Homework #1\\\\
+\large \bf Due: 10:00PM, #2
+\end{tabular}
+\end{center}
+\vspace{5mm}
+}
+\newcommand{\icPen}{\textcolor{Mahogany}{\faPencil*~}}
+\newcommand{\icCom}{\textcolor{RoyalBlue}{\faLaptopCode~}}
+\newcommand{\smiley}{\faSmile[regular]}
+\date{}
+\title{Sample HW01}
+\hypersetup{
+ pdfauthor={},
+ pdftitle={Sample HW01},
+ pdfkeywords={},
+ pdfsubject={},
+ pdfcreator={Emacs 27.2 (Org mode 9.4.4)},
+ pdflang={English}}
+\begin{document}
+
+\textit{\footnotesize Updated on \today}
+
+\hrulefill
+% Course information
+\begin{center}
+  \begin{tabular}{ c }
+    \LARGE \bf Math 3607: Sample Homework 1\\\\
+    \large \bf Due: 10:00PM, Tuesday, August 31, 2021
+  \end{tabular}
+\end{center}
+\vspace{5mm}
+
+\begin{enumerate}
+\item (\textbf{LM} 2.1--15(b): continued fraction)
+\label{sec:org81d377f}
+Let $s$ be defined by
+\[
+s = k + \dfrac{1}{k + \dfrac{1}{k + \dfrac{1}{k + \cdots}}}.
+\]
+where $k > 0$ is any positive integer.
+
+\begin{enumerate}
+\item \icPen Calculate $s$ by hand and write down the result as an (analytical) expression of $k$.
+\item \icCom Calculate the values of $s$ numerically for $k = 2, 3$, and $4$.
+\end{enumerate}
+
+\item (\textbf{LM} 2.1--39: roots of unity)
+\label{sec:orgea4ebba}
+
+\begin{enumerate}
+\item \icCom Use the approach explained in the problem (the one using Euler's formula) to find the five distinct solutions of $x^5 = 1$ in MATLAB.
+
+\item \icPen (Optional) If you want more challenge, by factoring $x^5 - 1$ and solving quadratic equations, find the analytical expressions for the solutions not in terms of trigonometric functions, but in terms of radicals. Then use MATLAB to confirm your results (against the ones obtained using Euler's formula).
+\end{enumerate}
+
+\item (\textbf{LM} 2.2--3: distance conversion)
+\label{sec:org6dc8323}
+
+\icPen \icCom Write a script which asks for a distance in meters. It should then output the distance in : feet, yards, miles, royal cubits (20.7 inches), and pedes (0.296 meter). Then run your code with a distance of 10,000 meters.
+
+\textbf{Warning:} The output must be readable. You may use "\texttt{disp([..., ..., ..., ...])}" to output all these distances, or you may give variables descriptive names and not use semicolons so that the variable names are printed out, followed by their values. For example,
+\begin{verbatim}
+  meter = input(.....)
+  feet = meter*.....
+  .....
+\end{verbatim}
+gives an easy-to-understand output.
+
+\item (Challenge: \textbf{LM} 2.1--12)
+\label{sec:org12950aa}
+
+This problem is not directly related to any of the homework problems, but you are invited to give it a try.
+\end{enumerate}
+\end{document}

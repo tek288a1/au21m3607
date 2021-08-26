@@ -1,0 +1,63 @@
+#+STARTUP: indent
+#+TITLE: Math 3607 Homework Formatting Guide
+#+OPTIONS: num:nil
+
+* Reveal.js Config                                                   :ignore:
+# #+REVEAL_INIT_OPTIONS: width:1920, height:1080, margin: 0.1, minScale:0.2, maxScale:2.5,
+#+REVEAL_INIT_OPTIONS: width:1280, height:720, margin: 0.1, minScale:0.2, maxScale:2.5,
+#+REVEAL_INIT_OPTIONS: transition:'none',
+#+REVEAL_INIT_OPTIONS: center:false,
+#+REVEAL_INIT_OPTIONS: reveal_history:true,
+#+REVEAL_INIT_OPTIONS: slideNumber:'c/t'
+#+REVEAL_THEME: beige
+#+REVEAL_HLEVEL: 2
+# #+REVEAL_HEAD_PREAMBLE: <meta name="description" content="Math 3607">
+# #+REVEAL_POSTAMBLE: <p> Created by Tae Eun Kim. </p>
+#+REVEAL_PLUGINS: (markdown notes zoom highlight)
+
+# Enable: browser history, fragment IDs in URLs, mouse wheel, links between presentations
+#+OPTIONS: reveal_fragmentinurl:t
+#+OPTIONS: reveal_mousewheel:t reveal_inter_presentation_links:t
+
+* Table of Contents                                                :noexport:
+
+This is an outline of the video guide for formatting homework submissions for Math 3607.
+
+# Create it using =M-x org-reveal-manual-toc=.
+  - [[Requirements][Requirements]]
+  - [[Formatting HW][Formatting HW]]
+  - [[Exporting HW][Exporting HW]]
+  - [[Submit to Gradescope][Submit to Gradescope]]
+
+* Requirements
+ - [ ] Watch Lectures 1 and 2
+ - [ ] Watch the video on built-in math. functions
+ - [ ] Download homework pdf
+ - [ ] Download homework template mlx file
+ - [ ] Create a directory for homework
+
+* Formatting HW
+** Notes
+There are some notations which will be used throughout the course.
+ - icons for by-hand and computer problems
+ - reference keys to textbooks
+
+In addition, there is an *important note* on the use of /Symbolic Toolbox/ features on MATLAB. In short, DON'T USE THEM!
+
+** Demo - Sample Homework 1
+ - By-hand work
+ - Computer work
+ - Write a script ... / Then run the script ...
+
+* Exporting HW
+
+Export the Live Script to a single pdf document by clicking
+
+=Save>Export to PDF=
+
+found under =LIVE EDITOR= tab.
+
+* Submit to Gradescope
+
+ - First time login: use =name.#@osu.edu=.
+ - Follow the guides to upload your work.
