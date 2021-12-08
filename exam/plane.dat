@@ -1,0 +1,13 @@
+%% data file: radar readings of an airplane
+% t: time in second
+% alpha, beta: angles in degree
+%
+% t  alpha   beta
+  7  56.02  67.50
+  8  55.53  66.71
+  9  54.80  65.59
+ 10  54.06  64.59
+ 11  53.34  63.62
+ 12  52.68  62.73
+ 13  51.87  61.66
+ 14  51.12  60.80
